@@ -5,6 +5,7 @@ const repeatString = function (word, sum) {
   for (let i = 0; i < sum; i++) {
     string += word;
   }
+  return (string += word);
 };
 // Do not edit below this line
 module.exports = repeatString;
